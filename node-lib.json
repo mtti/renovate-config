@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>mtti/renovate-config"
+  ],
+  "automerge": true,
+  "packageRules": [
+    {
+      "depTypeList": ["dependencies"],
+      "rangeStrategy": "bump"
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "rangeStrategy": "pin"
+    }
+  ]
+}

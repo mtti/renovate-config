@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "timezone": "Europe/Helsinki",
+  "schedule": [
+    "after 8 am and before 9 am on friday"
+  ],
+  "labels": [
+    "renovate"
+  ]
+}
