@@ -5,7 +5,7 @@
   ],
   "timezone": "Europe/Helsinki",
   "schedule": [
-    "after 8 am and before 9 am on friday"
+    "before 8:00am on Friday"
   ],
   "labels": [
     "renovate"
