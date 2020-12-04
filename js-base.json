@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>mtti/renovate-config"
+  ],
+  "packageRules": [
+    {
+      "packageNames": [
+        "@types/jest",
+        "jest",
+        "ts-jest"
+      ],
+      "packagePatterns": [
+        "^@typescript-eslint/",
+        "^eslint"
+      ],
+      "groupName": "testing and linting"
+    },
+    {
+      "packagePatterns": [
+        "^@mtti/"
+      ],
+      "groupName": "mtti"
+    }
+  ]
+}

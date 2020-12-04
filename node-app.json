@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>mtti/renovate-config"
+    "github>mtti/renovate-config:js-base"
   ],
   "automerge": true,
   "rangeStrategy": "pin"
