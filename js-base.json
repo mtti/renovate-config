@@ -14,13 +14,13 @@
         "^@typescript-eslint/",
         "^eslint"
       ],
-      "groupName": "testing and linting"
+      "groupName": "testing and linting packages"
     },
     {
       "packagePatterns": [
         "^@mtti/"
       ],
-      "groupName": "mtti"
+      "groupName": "@mtti packages"
     }
   ]
 }
