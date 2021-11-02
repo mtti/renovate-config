@@ -21,6 +21,12 @@
         "^@mtti/"
       ],
       "groupName": "@mtti packages"
+    },
+    {
+      "packageNames": [
+        "node"
+      ],
+      "automerge": false
     }
   ]
 }
